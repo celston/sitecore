@@ -1,0 +1,14 @@
+﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.Layouts.BasicHtmlModel
+
+@if (Model.ShowMetaAuthor)
+{
+    <meta name="author" content="@Model.MetaAuthor"/>
+}
+@if (Model.ShowMetaDescription)
+{
+    <meta name="description" content="@Model.MetaDescription"/>
+}
+@if (Model.ShowMetaKeywords)
+{
+    <meta name="keywords" content="@Model.MetaKeywords"/>
+}

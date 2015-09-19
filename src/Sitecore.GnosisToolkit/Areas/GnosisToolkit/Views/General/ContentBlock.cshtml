@@ -1,0 +1,13 @@
+﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General.ContentBlockModel
+
+<section id="@Model.MachineName" data-item-id="@Model.Id" class="contentblock">
+    @if (Model.ShowImage)
+    {
+        <div class="contentblock-image">@Model.Image</div>
+    }
+    @if (Model.ShowHeading)
+    {
+        <header class="contentblock-heading">@Model.Heading</header>
+    }
+    <div class="contentblock-body">@Model.Body</div>
+</section>

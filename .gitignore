@@ -194,3 +194,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+/src/references/Sitecore.Client.dll
+/src/references/Sitecore.Kernel.dll
+/src/references/Sitecore.Mvc.dll
