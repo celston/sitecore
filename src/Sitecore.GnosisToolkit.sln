@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.GnosisToolkit", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.GnosisToolkit.Library", "Sitecore.GnosisToolkit.Library\Sitecore.GnosisToolkit.Library.csproj", "{7E30CCD8-1E09-405A-BBA2-8D624340054A}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.GnosisToolkit.Tds", "TDSProject1\Sitecore.GnosisToolkit.Tds.scproj", "{095D14C2-A8CC-47F1-99BD-484A05BBB744}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.GnosisToolkit.Tds", "Sitecore.GnosisTookit.Tds\Sitecore.GnosisToolkit.Tds.scproj", "{095D14C2-A8CC-47F1-99BD-484A05BBB744}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

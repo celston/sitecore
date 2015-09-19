@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C8E551C2-C9AC-4476-A076-B18B6C1FCC16}
+database: master
+path: /sitecore/templates/GnosisToolkit/Fields/General/Content Block Rendering Fields/Content Block Rendering Information/Content Block Show Heading
+parent: {4A0F4193-0741-4273-80AC-D36BA6640EC1}
+name: Content Block Show Heading
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Checkbox
+----version----
+language: en
+version: 1
+revision: 89dfb692-3daf-4c27-bd25-7fb58fe7a0a4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150905T184222Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89dfb692-3daf-4c27-bd25-7fb58fe7a0a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150905T184222Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
