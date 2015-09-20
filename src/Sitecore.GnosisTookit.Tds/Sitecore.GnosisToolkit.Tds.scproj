@@ -39,6 +39,11 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreAccessGuid>71d4f751-0535-408e-8e2d-84f146ab215d</SitecoreAccessGuid>
+    <SitecoreWebUrl>http://sitecoresandbox80</SitecoreWebUrl>
+    <SitecoreDeployFolder>C:\inetpub\wwwroot\sitecoresandbox80\Website</SitecoreDeployFolder>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
