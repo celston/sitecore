@@ -1,0 +1,40 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.Twitter.TwitterAppCardModel
+
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Primary.cshtml")
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Secondary.cshtml")
+@if (Model.ShowAppIphoneName)
+{
+    <meta name="twitter:app:name:iphone" content="@Model.AppIphoneName" />
+}
+@if (Model.ShowAppIphoneId)
+{
+    <meta name="twitter:app:id:iphone" content="@Model.AppIphoneId"/>
+}
+@if (Model.ShowAppIphoneUrl)
+{
+    <meta name="twitter:app:url:iphone" content="@Model.AppIphoneUrl"/>
+}
+@if (Model.ShowAppIpadName)
+{
+    <meta name="twitter:app:name:ipad" content="@Model.AppIpadName"/>
+}
+@if (Model.ShowAppIpadId)
+{
+    <meta name="twitter:app:id:ipad" content="@Model.AppIpadId"/>
+}
+@if (Model.ShowAppIpadUrl)
+{
+    <meta name="twitter:app:url:ipad" content="@Model.AppIpadUrl" />
+}
+@if (Model.ShowAppGooglePlayName)
+{
+    <meta name="twitter:app:name:googleplay" content="@Model.AppGooglePlayName" />
+}
+@if (Model.ShowAppGooglePlayId)
+{
+    <meta name="twitter:app:id:googleplay" content="@Model.AppGooglePlayId" />
+}
+@if (Model.ShowAppGooglePlayUrl)
+{
+    <meta name="twitter:app:url:googleplay" content="@Model.AppGooglePlayUrl" />
+}

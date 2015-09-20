@@ -1,0 +1,15 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.Twitter.TwitterPlayerCardModel
+
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Primary.cshtml")
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Secondary.cshtml")
+<meta name="twitter:player" content="@Model.Player"/>
+<meta name="twitter:player:height" content="@Model.PlayerHeight"/>
+<meta name="twitter:player:width" content="@Model.PlayerWidth"/>
+@if (Model.ShowPlayerStream)
+{
+    <meta name="twitter:player:stream" content="@Model.PlayerStream" />
+}
+@if (Model.ShowPlayerStreamContentType)
+{
+    <meta name="twitter:player:stream:content_type" content="@Model.PlayerStreamContentType"/>
+}

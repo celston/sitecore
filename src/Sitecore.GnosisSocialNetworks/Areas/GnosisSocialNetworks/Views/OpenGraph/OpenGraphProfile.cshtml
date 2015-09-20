@@ -1,0 +1,9 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.OpenGraph.OpenGraphProfileModel
+
+<meta property="og:type" content="profile"/>
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/OpenGraph/OpenGraphBasic.cshtml")
+
+<meta property="og:profile:first_name" content="@Model.ProfileFirstName"/>
+<meta property="og:profile:last_name" content="@Model.ProfileLastName" />
+<meta property="og:profile:username" content="@Model.ProfileUsername" />
+<meta property="og:profile:gender" content="@Model.ProfileGender" />

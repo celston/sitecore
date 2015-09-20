@@ -1,0 +1,28 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.OpenGraph.OpenGraphBasicModel
+
+<meta property="og:site_name" content="@Model.SiteName"/>
+<meta property="og:locale" content="@Model.Locale"/>
+<meta property="og:title" content="@Model.Title"/>
+@if (Model.ShowDescription)
+{
+    <meta property="og:description" content="@Model.Description" />
+}
+@if (Model.ShowImage)
+{
+    <meta property="og:image" content="@Model.ImageUrl" />
+    <meta property="og:image:height" content="@Model.ImageHeight"/>
+    <meta property="og:image:height" content="@Model.ImageWidth" />
+    <meta property="og:image:type" content="@Model.ImageMimeType"/>
+}
+@if (Model.ShowDeterminer)
+{
+    <meta property="og:determiner" content="@Model.Determiner"/>
+}
+@if (Model.ShowAudio)
+{
+    <meta property="og:audio" content="@Model.AudioUrl"/>
+}
+@if (Model.ShowVideo)
+{
+    <meta property="og:video" content="@Model.VideoUrl"/>
+}

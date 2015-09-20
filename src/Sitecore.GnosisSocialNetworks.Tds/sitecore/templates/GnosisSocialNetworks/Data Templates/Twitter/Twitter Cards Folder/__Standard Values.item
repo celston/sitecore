@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E1F8A595-97C7-431D-97D6-C84D3A7E05C1}
+database: master
+path: /sitecore/templates/GnosisSocialNetworks/Data Templates/Twitter/Twitter Cards Folder/__Standard Values
+parent: {F5F7F5E6-D084-43FF-84D7-7BAE1CF566B6}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F5F7F5E6-D084-43FF-84D7-7BAE1CF566B6}
+templatekey: Twitter Cards Folder
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{365A3FED-CB99-4002-A8E5-32A1E84EA4AE}|{5F64A8B5-BCE1-478A-9C3E-00C4E58264BA}|{CC1879FE-34BF-4BAA-8489-FFE871B4528B}|{F5F7F5E6-D084-43FF-84D7-7BAE1CF566B6}|{A934F0BE-53A3-44AD-AB98-4909E72782D8}
+----version----
+language: en
+version: 1
+revision: a8cd655d-4b0f-4ee3-8a22-6ee91d8f3d7b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150903T135415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a8cd655d-4b0f-4ee3-8a22-6ee91d8f3d7b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150903T141023Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

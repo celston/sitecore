@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.GnosisToolkit", "Sitecore.GnosisToolkit\Sitecore.GnosisToolkit.csproj", "{A57C13E0-0F5B-4F2D-A686-4670CE37342E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.GnosisToolkit.Library", "Sitecore.GnosisToolkit.Library\Sitecore.GnosisToolkit.Library.csproj", "{7E30CCD8-1E09-405A-BBA2-8D624340054A}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.GnosisToolkit.Tds", "Sitecore.GnosisTookit.Tds\Sitecore.GnosisToolkit.Tds.scproj", "{095D14C2-A8CC-47F1-99BD-484A05BBB744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.GnosisSocialNetworks", "Sitecore.GnosisSocialNetworks\Sitecore.GnosisSocialNetworks.csproj", "{D837EF5D-27E3-44A7-BBBE-DEFF3C26A176}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Sitecore.GnosisSocialNetworks.Tds", "Sitecore.GnosisSocialNetworks.Tds\Sitecore.GnosisSocialNetworks.Tds.scproj", "{8B771289-1785-4709-9887-A97969203BC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A57C13E0-0F5B-4F2D-A686-4670CE37342E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A57C13E0-0F5B-4F2D-A686-4670CE37342E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A57C13E0-0F5B-4F2D-A686-4670CE37342E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A57C13E0-0F5B-4F2D-A686-4670CE37342E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E30CCD8-1E09-405A-BBA2-8D624340054A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E30CCD8-1E09-405A-BBA2-8D624340054A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E30CCD8-1E09-405A-BBA2-8D624340054A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,6 +27,16 @@ Global
 		{095D14C2-A8CC-47F1-99BD-484A05BBB744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{095D14C2-A8CC-47F1-99BD-484A05BBB744}.Release|Any CPU.Build.0 = Release|Any CPU
 		{095D14C2-A8CC-47F1-99BD-484A05BBB744}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D837EF5D-27E3-44A7-BBBE-DEFF3C26A176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D837EF5D-27E3-44A7-BBBE-DEFF3C26A176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D837EF5D-27E3-44A7-BBBE-DEFF3C26A176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D837EF5D-27E3-44A7-BBBE-DEFF3C26A176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B771289-1785-4709-9887-A97969203BC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

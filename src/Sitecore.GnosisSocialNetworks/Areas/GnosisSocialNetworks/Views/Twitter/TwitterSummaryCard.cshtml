@@ -1,0 +1,12 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.Twitter.TwitterSummaryCardModel
+
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Primary.cshtml")
+@if (Model.ShowCreator)
+{
+    <meta name="twitter:creator" content="@Model.Creator"/>
+}
+@if (Model.ShowCreatorId)
+{
+    <meta name="twitter:creator:id" content="@Model.CreatorId"/>
+}
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/Twitter/_Secondary.cshtml")

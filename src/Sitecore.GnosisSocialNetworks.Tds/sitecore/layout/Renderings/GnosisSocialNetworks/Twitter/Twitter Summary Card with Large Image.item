@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {58AFB127-3B5C-4F8D-A0AF-7DC3663A319A}
+database: master
+path: /sitecore/layout/Renderings/GnosisSocialNetworks/Twitter/Twitter Summary Card with Large Image
+parent: {961E34DE-D2BE-40F1-B0C5-738C84E02315}
+name: Twitter Summary Card with Large Image
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
+
+Twitter
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 32
+
+TwitterSummaryCardWithLargeImage
+----field----
+field: {94069F66-609C-48B0-8281-521C30FB269D}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 106
+
+/sitecore/templates/GnosisSocialNetworks/Base Templates/Twitter/Twitter Summary Card with Large Image Base
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 39
+
+NetworkV2/16x16/id_card_information.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 163
+
+<image mediapath="" alt="Twitter" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{78D8D914-51C8-41F3-8424-021262F148B8}" />
+----version----
+language: en
+version: 1
+revision: 6d16342f-efc7-4598-99c9-2b54963ac3d5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150901T170757Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6d16342f-efc7-4598-99c9-2b54963ac3d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150915T180508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

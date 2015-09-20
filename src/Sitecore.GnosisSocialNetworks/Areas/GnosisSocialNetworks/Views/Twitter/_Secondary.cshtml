@@ -1,0 +1,14 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.Twitter.TwitterCardModel
+
+@if (Model.ShowTitle)
+{
+    <meta name="twitter:title" content="@Model.Title" />
+}
+@if (Model.ShowDescription)
+{
+    <meta name="twitter:description" content="@Model.Description" />
+}
+@if (Model.ShowImageUrl)
+{
+    <meta name="twitter:image" content="@Model.ImageUrl" />
+}

@@ -1,0 +1,23 @@
+﻿@model Sitecore.GnosisSocialNetworks.Areas.GnosisSocialNetworks.Models.OpenGraph.OpenGraphArticleModel
+
+<meta property="og:type" content="article"/>
+@Html.Partial("~/Areas/GnosisSocialNetworks/Views/OpenGraph/OpenGraphBasic.cshtml")
+
+@if (Model.ShowArticlePublishedTime)
+{
+    <meta property="og:article:published_time" content="@Model.ArticlePublishedTime"/>
+}
+@if (Model.ShowAuthors)
+{
+    foreach (string authorUrl in Model.ArticleAuthorUrls)
+    {
+        <meta property="og:article:author" content="@authorUrl"/>
+    }
+}
+@if (Model.ShowArticleTags)
+{
+    foreach (string tag in Model.ArticleTags)
+    {
+        <meta property="og:article:tag" content="@tag"/>
+    }
+}
