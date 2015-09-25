@@ -30,6 +30,17 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
             }
         }
 
+        public MultilistField GetMultilistField(Item item, string name)
+        {
+            return (MultilistField)item.Fields[name];
+        }
+
+        public Item[] GetMultilistFieldItems(Item item, string name)
+        {
+            MultilistField field = GetMultilistField(item, name);
+            return field.GetItems();
+        }
+
         #endregion
 
         public ImageField GetImageField(Item item, string fieldName)

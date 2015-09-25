@@ -74,6 +74,13 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
             return GetLinkFieldAbsoluteUrl(fieldsHelper.GetLinkField(item, fieldName));
         }
 
+        public string GetLinkFieldUrl(Item item, string name)
+        {
+            LinkField field = fieldsHelper.GetLinkField(item, name);
+
+            return GetLinkFieldUrl(field);
+        }
+
         public string GetLinkFieldUrl(LinkField field)
         {
             if (field == null)

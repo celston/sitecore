@@ -6,13 +6,20 @@ path: /sitecore/layout/Renderings/GnosisToolkit
 parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
 name: GnosisToolkit
 master: {00000000-0000-0000-0000-000000000000}
-template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
-templatekey: Folder
+template: {98FBC44C-FE19-4095-BAF5-50F9E87BD170}
+templatekey: Rendering Folder with Area
 
+----field----
+field: {AE70CFBB-D5F5-4052-AE8F-90F628AB3B97}
+name: Area Name
+key: area name
+content-length: 13
+
+GnosisToolkit
 ----version----
 language: en
 version: 1
-revision: 15cbca71-c79a-4ae3-809b-ef162f3c65c5
+revision: d8b5b50c-3816-4016-ae6a-a2087c642680
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-15cbca71-c79a-4ae3-809b-ef162f3c65c5
+d8b5b50c-3816-4016-ae6a-a2087c642680
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150905T023833Z
+20150923T013657Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

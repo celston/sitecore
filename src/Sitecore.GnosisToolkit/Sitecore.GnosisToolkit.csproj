@@ -43,6 +43,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Glass.Mapper, Version=4.0.2.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.2.10\lib\net45\Glass.Mapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.2.10\lib\80\Glass.Mapper.Sc.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc.Mvc">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.2.10\lib\Mvc5\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -104,16 +118,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
+    <Content Include="Areas\GnosisToolkit\Views\General\CallToActionGlass.cshtml" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Areas\GnosisToolkit\Views\Libraries\SiteCssLibraries.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Elements\Div.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Libraries\SiteJavaScriptLibraries.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Examples\BootstrapNavbarExample.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Examples\BootstrapTabsExample.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Libraries\JavaScriptLibrary.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Examples\JqueryUiAccordionExample.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Examples\Bootstrap363RowExample.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Libraries\CssLibrary.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\GlassMapperSc.cs" />
+    <Compile Include="App_Start\GlassMapperScCustom.cs" />
+    <Compile Include="Areas\GnosisToolkit\Controllers\ElementsController.cs" />
+    <Compile Include="Areas\GnosisToolkit\Controllers\ExamplesController.cs" />
+    <Compile Include="Areas\GnosisToolkit\Controllers\GeneralController.cs" />
+    <Compile Include="Areas\GnosisToolkit\Controllers\LibrariesController.cs" />
     <Compile Include="Areas\GnosisToolkit\GnosisToolkitAreaRegistration.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Elements\ElementModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionGlassModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\ContentBlockModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\General\ICallToAction.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Layouts\BasicHtmlModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\CssLibraryModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\JavaScriptLibraryModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\LibraryModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteJavaScriptLibrariesModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteCssLibrariesModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteLibrariesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="packages.config" />
     <Content Include="Areas\GnosisToolkit\Views\web.config" />
     <Content Include="Areas\GnosisToolkit\Views\General\CallToAction.cshtml" />
@@ -130,10 +188,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Areas\GnosisToolkit\Controllers\" />
-    <Folder Include="Areas\GnosisToolkit\Views\Shared\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Sitecore.GnosisToolkit.Library\Sitecore.GnosisToolkit.Library.csproj">
       <Project>{7e30ccd8-1e09-405a-bba2-8d624340054a}</Project>

@@ -3,28 +3,28 @@ version: 1
 id: {C0AA7B77-BBAF-488F-8A62-1353AF6B35A9}
 database: master
 path: /sitecore/layout/Renderings/GnosisToolkit/General/Call to Action
-parent: {75D3EED8-1D94-440A-B774-4B23BB1B1520}
+parent: {A5CE069B-476D-4A80-AA15-156570285844}
 name: Call to Action
 master: {00000000-0000-0000-0000-000000000000}
-template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
-templatekey: View rendering
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
 
 ----field----
-field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
-name: Path
-key: path
-content-length: 54
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
 
-/Areas/GnosisToolkit/Views/General/CallToAction.cshtml
+General
 ----field----
-field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
-name: Model
-key: model
-content-length: 60
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 12
 
-/sitecore/layout/Models/GnosisToolkit/General/Call to Action
+CallToAction
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+field: {94069F66-609C-48B0-8281-521C30FB269D}
 name: Open Properties after Add
 key: open properties after add
 content-length: 1
@@ -44,10 +44,17 @@ key: __icon
 content-length: 30
 
 SoftwareV2/16x16/megaphone.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
 ----version----
 language: en
 version: 1
-revision: 373193ae-d192-4fd8-bfae-655702ae0999
+revision: e45122e7-a96d-46e4-a938-66d1ab71cf16
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-373193ae-d192-4fd8-bfae-655702ae0999
+e45122e7-a96d-46e4-a938-66d1ab71cf16
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150907T191735Z
+20150923T220925Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

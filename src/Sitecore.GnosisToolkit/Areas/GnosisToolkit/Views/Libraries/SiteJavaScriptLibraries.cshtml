@@ -1,0 +1,6 @@
+﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.Libraries.SiteJavaScriptLibrariesModel
+
+@foreach (string url in Model.Urls)
+{
+    <script src="@url"></script>
+}

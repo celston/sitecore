@@ -11,7 +11,7 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
 {
     public class ItemsHelper
     {
-        private readonly Lazy<Item> lazyRootItem;
+        private Lazy<Item> lazyRootItem;
         
         #region Singleton Setup
 
@@ -42,7 +42,7 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
         {
             get
             {
-                return lazyRootItem.Value;
+                return Sitecore.Context.Database.GetItem(Sitecore.Context.Site.RootPath);
             }
         }
 

@@ -7,17 +7,22 @@ using Sitecore.GnosisToolkit.Library.Attributes;
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
 {
     [SitecoreFieldNamePrefix("Call to Action")]
-    public class CallToActionModel : BaseRenderingModel
+    public class CallToActionModel
     {
+        [SitecoreId]
+        public Guid Id { get; set; }
+        [SitecoreMachineName]
+        public string MachineName { get; set; }
+
         [SitecoreField]
-        public HtmlString Heading { get; private set; }
+        public HtmlString Heading { get; set; }
         [SitecoreField]
-        public HtmlString Image { get; private set; }
+        public HtmlString Image { get; set; }
         [SitecoreField]
-        public HtmlString Body { get; private set; }
+        public HtmlString Body { get; set; }
         [SitecoreField]
-        public HtmlString Link { get; private set; }
+        public HtmlString Link { get; set; }
         [SitecoreLinkFieldUrl("Link")]
-        public string LinkUrl { get; private set; }
+        public string LinkUrl { get; set; }
     }
 }

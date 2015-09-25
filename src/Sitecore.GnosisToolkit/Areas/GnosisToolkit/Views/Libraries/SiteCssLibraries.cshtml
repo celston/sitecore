@@ -1,0 +1,6 @@
+﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.Libraries.SiteCssLibrariesModel
+
+@foreach (string url in Model.Urls)
+{
+    <link rel="stylesheet" href="@url"/>
+}
