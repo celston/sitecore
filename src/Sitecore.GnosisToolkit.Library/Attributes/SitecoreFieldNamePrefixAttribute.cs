@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sitecore.GnosisToolkit.Library.Attributes
 {
-    [AttributeUsage(AttributeTargets.Class)]
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = false)]
     public class SitecoreFieldNamePrefixAttribute : Attribute
     {
         public string FieldNamePrefix { get; private set; }

@@ -156,11 +156,13 @@
     <Compile Include="Areas\GnosisToolkit\Controllers\GeneralController.cs" />
     <Compile Include="Areas\GnosisToolkit\Controllers\LibrariesController.cs" />
     <Compile Include="Areas\GnosisToolkit\GnosisToolkitAreaRegistration.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Item.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Elements\ElementModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionGlassModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\ContentBlockModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\ICallToAction.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\IItem.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Layouts\BasicHtmlModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\CssLibraryModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\JavaScriptLibraryModel.cs" />
