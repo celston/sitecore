@@ -52,5 +52,10 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
         {
             return (LinkField)item.Fields[fieldName];
         }
+
+        public ReferenceField GetReferenceField(Item item, string fieldName)
+        {
+            return (ReferenceField)item.Fields[fieldName];
+        }
     }
 }

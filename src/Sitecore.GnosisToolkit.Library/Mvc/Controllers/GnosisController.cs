@@ -6,11 +6,14 @@ using System.Web.Mvc;
 using Sitecore.Mvc.Presentation;
 
 using Sitecore.GnosisToolkit.Library.Attributes;
+using Sitecore.GnosisToolkit.Library.Helpers;
 
 namespace Sitecore.GnosisToolkit.Library.Mvc.Controllers
 {
-    public abstract class BaseController : Controller
+    public abstract class GnosisController : Controller
     {
+        protected ItemsHelper itemsHelper = ItemsHelper.Instance;
+
         protected Rendering Rendering
         {
             get

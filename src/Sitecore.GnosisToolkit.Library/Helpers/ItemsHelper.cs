@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
 using Sitecore.Data.Items;
+using Sitecore.Data.Fields;
 
 namespace Sitecore.GnosisToolkit.Library.Helpers
 {
     public class ItemsHelper
     {
         private Lazy<Item> lazyRootItem;
+        protected readonly FieldsHelper fieldsHelper = FieldsHelper.Instance;
         
         #region Singleton Setup
 
@@ -51,6 +53,18 @@ namespace Sitecore.GnosisToolkit.Library.Helpers
             Regex regex = new Regex("[^a-z0-9]+");
 
             return regex.Replace(item.Name.ToLower(), "-");
+        }
+
+        public Item GetReferenceFieldTargetItem(Item item, string fieldName)
+        {
+            ReferenceField field = fieldsHelper.GetReferenceField(item, fieldName);
+
+            if (field == null)
+            {
+                return null;
+            }
+
+            return field.TargetItem;
         }
     }
 }

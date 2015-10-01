@@ -11,7 +11,7 @@ using Sitecore.GnosisToolkit.Library.Mvc.Controllers;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Controllers
 {
-    public class LibrariesController : BaseController
+    public class LibrariesController : GnosisController
     {
         #region Private Fields
 

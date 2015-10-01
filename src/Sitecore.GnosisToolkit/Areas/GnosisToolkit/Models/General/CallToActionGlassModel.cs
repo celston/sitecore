@@ -1,9 +1,7 @@
-﻿using Glass.Mapper.Sc.Configuration.Attributes;
+﻿using System;
+
+using Glass.Mapper.Sc.Configuration.Attributes;
 using Glass.Mapper.Sc.Fields;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
 {

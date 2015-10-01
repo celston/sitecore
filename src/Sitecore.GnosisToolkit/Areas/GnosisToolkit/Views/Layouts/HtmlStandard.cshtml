@@ -1,0 +1,12 @@
+﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.Layouts.BasicHtmlModel
+
+@{
+    ViewBag.Title = Model.HtmlTitle;
+    Layout = "~/Areas/GnosisToolkit/Views/Shared/_HtmlStandard.cshtml";
+}
+
+@section head {
+    @Html.Sitecore().Placeholder("head")
+}
+
+@Html.Sitecore().Placeholder("body")

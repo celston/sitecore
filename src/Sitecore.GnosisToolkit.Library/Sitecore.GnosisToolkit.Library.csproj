@@ -102,7 +102,7 @@
     <Compile Include="Helpers\ItemsHelper.cs" />
     <Compile Include="Helpers\LinksHelper.cs" />
     <Compile Include="Helpers\MediaHelper.cs" />
-    <Compile Include="Mvc\Controllers\BaseController.cs" />
+    <Compile Include="Mvc\Controllers\GnosisController.cs" />
     <Compile Include="Mvc\Models\BaseRenderingModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

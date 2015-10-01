@@ -1,17 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using Sitecore.Data.Items;
 using Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.Navigation;
 using Sitecore.GnosisToolkit.Library.Mvc.Controllers;
+using Sitecore.Data.Items;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Controllers
 {
-    public class ExamplesController : GnosisController
+    public class NavigationController : GnosisController
     {
-        // GET: GnosisToolkit/Examples
-        public ActionResult BootstrapNavbarExample()
+        // GET: GnosisToolkit/Navigation
+        public ActionResult PrimaryNavigation()
         {
             NavigationModel model = new NavigationModel();
 
@@ -26,21 +28,6 @@ namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Controllers
             }
 
             return View(model);
-        }
-
-        public ActionResult BootstrapTabsExample()
-        {
-            return View();
-        }
-
-        public ActionResult Bootstrap363RowExample()
-        {
-            return View();
-        }
-
-        public ActionResult JqueryUiAccordionExample()
-        {
-            return View();
         }
     }
 }

@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Areas/GnosisToolkit/Views/Shared/_HtmlStandard.cshtml";
+}
+
+@section head {
+    @RenderSection("head")
+}
+
+@RenderSection("preContainer", false)
+
+<div class="container-fluid">
+    @RenderBody()
+</div>
+
+@RenderSection("postContainer", false)

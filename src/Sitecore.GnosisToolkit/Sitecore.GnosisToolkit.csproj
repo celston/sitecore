@@ -122,15 +122,6 @@
     <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <Content Include="Areas\GnosisToolkit\Views\General\CallToActionGlass.cshtml" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Areas\GnosisToolkit\Views\Libraries\SiteCssLibraries.cshtml" />
     <Content Include="Areas\GnosisToolkit\Views\Elements\Div.cshtml" />
     <Content Include="Areas\GnosisToolkit\Views\Libraries\SiteJavaScriptLibraries.cshtml" />
@@ -142,10 +133,14 @@
     <Content Include="Areas\GnosisToolkit\Views\Examples\JqueryUiAccordionExample.cshtml" />
     <Content Include="Areas\GnosisToolkit\Views\Examples\Bootstrap363RowExample.cshtml" />
     <Content Include="Areas\GnosisToolkit\Views\Libraries\CssLibrary.cshtml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Areas\GnosisToolkit\Views\Shared\_HtmlMinimum.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Layouts\HtmlMinimum.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Shared\_HtmlStandard.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Layouts\HtmlStandard.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Shared\_BootstrapFixed.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Layouts\BootstrapFixed.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Shared\_BootstrapFluid.cshtml" />
+    <Content Include="Areas\GnosisToolkit\Views\Layouts\BootstrapFluid.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +150,7 @@
     <Compile Include="Areas\GnosisToolkit\Controllers\ExamplesController.cs" />
     <Compile Include="Areas\GnosisToolkit\Controllers\GeneralController.cs" />
     <Compile Include="Areas\GnosisToolkit\Controllers\LibrariesController.cs" />
+    <Compile Include="Areas\GnosisToolkit\Controllers\NavigationController.cs" />
     <Compile Include="Areas\GnosisToolkit\GnosisToolkitAreaRegistration.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Item.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Elements\ElementModel.cs" />
@@ -170,10 +166,11 @@
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteJavaScriptLibrariesModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteCssLibrariesModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\SiteLibrariesModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Navigation\NavigationItemModel.cs" />
+    <Compile Include="Areas\GnosisToolkit\Models\Navigation\NavigationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Site.css" />
     <Content Include="packages.config" />
     <Content Include="Areas\GnosisToolkit\Views\web.config" />
     <Content Include="Areas\GnosisToolkit\Views\General\CallToAction.cshtml" />
@@ -190,7 +187,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Areas\GnosisToolkit\Views\Navigation\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sitecore.GnosisToolkit.Library\Sitecore.GnosisToolkit.Library.csproj">
       <Project>{7e30ccd8-1e09-405a-bba2-8d624340054a}</Project>

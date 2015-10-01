@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Areas/GnosisToolkit/Views/Shared/_BootstrapFluid.cshtml";
+}
+
+@section head {
+    @Html.Sitecore().Placeholder("head")
+}
+
+@section preContainer {
+    @Html.Sitecore().Placeholder("bootstrap-preContainer")
+}
+
+@Html.Sitecore().Placeholder("body")
+
+@section postContainer {
+    @Html.Sitecore().Placeholder("bootstrap-postContainer")
+}

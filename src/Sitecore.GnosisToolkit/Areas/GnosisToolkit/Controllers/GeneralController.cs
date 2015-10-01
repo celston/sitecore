@@ -9,7 +9,7 @@ using Sitecore.GnosisToolkit.Library.Mvc.Controllers;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Controllers
 {
-    public class GeneralController : BaseController
+    public class GeneralController : GnosisController
     {
         public ActionResult CallToAction()
         {

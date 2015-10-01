@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Areas/GnosisToolkit/Views/Shared/_HtmlMinimum.cshtml";
+}
+
+@section head {
+    <meta charset="@(ViewBag.HtmlHeadCharset ?? "utf-8")" />
+    <meta http-equiv="X-UA-Compatible" content="@(ViewBag.HtmlMetaHttpEquivUaCompatible ?? "IE=edge")">
+    <meta name="viewport" content="@(ViewBag.HtmlHeadMetaViewport ?? "width=device-width, initial-scale=1")">
+    <title>@ViewBag.Title</title>
+    @RenderSection("head", false)
+}
+
+@RenderBody()
