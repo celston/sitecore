@@ -1,8 +1,8 @@
 ﻿@model Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General.CallToActionModel
 
 <div id="@Model.MachineName" data-item-id="@Model.Id" class="calltoaction">
-    <div class="calltoaction-image"><a href="@Model.LinkUrl">@Model.Image</a></div>
-    <div class="calltoaction-heading"><a href="@Model.LinkUrl">@Model.Heading</a></div>
+    <div class="calltoaction-image"><a href="@Model.LinkUrl" target="@Model.LinkTarget">@Model.Image</a></div>
+    <div class="calltoaction-heading"><a href="@Model.LinkUrl" target="@Model.LinkTarget">@Model.Heading</a></div>
     <div class="calltoaction-body">@Model.Body</div>
     <div class="calltoaction-link">@Model.Link</div>
 </div>

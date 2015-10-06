@@ -157,7 +157,6 @@
     <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionGlassModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\CallToActionModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\General\ContentBlockModel.cs" />
-    <Compile Include="Areas\GnosisToolkit\Models\General\ICallToAction.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\IItem.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Layouts\BasicHtmlModel.cs" />
     <Compile Include="Areas\GnosisToolkit\Models\Libraries\CssLibraryModel.cs" />
