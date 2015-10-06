@@ -3,21 +3,16 @@ using System.Web;
 
 using Sitecore.GnosisToolkit.Library.Attributes;
 using Sitecore.GnosisToolkit.Library.Mvc.Models;
+using Sitecore.GnosisToolkit.Library.Mvc.Models.General;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
 {
-    [SitecoreFieldNamePrefix("Content Block")]
-    public class ContentBlockModel : BaseRenderingModel
+    public class ContentBlockModel : BaseRenderingModel, IContentBlock
     {
-        [SitecoreField]
-        public HtmlString Heading { get; private set; }
-        [SitecoreCheckboxRenderingParameter]
-        public bool ShowHeading { get; private set; }
-        [SitecoreField]
-        public HtmlString Image { get; private set; }
-        [SitecoreCheckboxRenderingParameter]
-        public bool ShowImage { get; private set; }
-        [SitecoreField]
-        public HtmlString Body { get; private set; }
+        public HtmlString Heading { get; set; }
+        public bool ShowHeading { get; set; }
+        public HtmlString Image { get; set; }
+        public bool ShowImage { get; set; }
+        public HtmlString Body { get; set; }
     }
 }
