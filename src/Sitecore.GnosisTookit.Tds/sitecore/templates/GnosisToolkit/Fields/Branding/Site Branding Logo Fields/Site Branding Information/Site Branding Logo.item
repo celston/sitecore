@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {3101EDD5-6387-4C8B-A395-75FFBC028749}
+database: master
+path: /sitecore/templates/GnosisToolkit/Fields/Branding/Site Branding Logo Fields/Site Branding Information/Site Branding Logo
+parent: {69AB3535-FE4A-4BA1-A483-619D8722BC98}
+name: Site Branding Logo
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 5
+
+Image
+----version----
+language: en
+version: 1
+revision: 270857eb-2ef1-48e1-9784-f72ecf35b860
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150927T233752Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+270857eb-2ef1-48e1-9784-f72ecf35b860
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150927T233752Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
