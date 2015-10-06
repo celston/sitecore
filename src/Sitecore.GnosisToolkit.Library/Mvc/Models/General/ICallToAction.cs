@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Web;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Sitecore.GnosisToolkit.Library.Attributes;
 
-
-namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
+namespace Sitecore.GnosisToolkit.Library.Models.General
 {
     [SitecoreFieldNamePrefix("Call to Action")]
     public interface ICallToAction
@@ -23,5 +18,7 @@ namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
         HtmlString Link { get; set; }
         [SitecoreLinkFieldUrl("Link")]
         string LinkUrl { get; set; }
+        [SitecoreLinkFieldTarget("Link")]
+        string LinkTarget { get; set; }
     }
 }

@@ -93,6 +93,7 @@
     <Compile Include="Attributes\SitecoreImageFieldPathWithRootFallbackAttribute.cs" />
     <Compile Include="Attributes\SitecoreImageFieldWidthAttribute.cs" />
     <Compile Include="Attributes\SitecoreLinkFieldAbsoluteUrlAttribute.cs" />
+    <Compile Include="Attributes\SitecoreLinkFieldTargetAttribute.cs" />
     <Compile Include="Attributes\SitecoreLinkFieldUrlAttribute.cs" />
     <Compile Include="Attributes\SitecoreMachineNameAttribute.cs" />
     <Compile Include="Attributes\SitecoreMultilistFieldAbsoluteUrlsAttribute.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Helpers\MediaHelper.cs" />
     <Compile Include="Mvc\Controllers\GnosisController.cs" />
     <Compile Include="Mvc\Models\BaseRenderingModel.cs" />
+    <Compile Include="Mvc\Models\General\ICallToAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

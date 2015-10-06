@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Web;
 
-using Sitecore.GnosisToolkit.Library.Mvc.Models;
-using Sitecore.GnosisToolkit.Library.Attributes;
+using Sitecore.GnosisToolkit.Library.Models.General;
 
 namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
 {
@@ -13,5 +12,6 @@ namespace Sitecore.GnosisToolkit.Areas.GnosisToolkit.Models.General
         public HtmlString Body { get; set; }
         public HtmlString Link { get; set; }
         public string LinkUrl { get; set; }
+        public string LinkTarget { get; set; }
     }
 }
